@@ -1,0 +1,12 @@
+input[type="submit"] {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input {
+    padding: 3px;
+    margin-left: 10px;
+}
