@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - ENG18CS0230</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>Riya Savant (ENG18CS0230)</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="4"><div class="result" id="res">0</div></td>
+            </tr>
+            <tr>
+                <td colspan="3"><div onclick="clr()">C</div></td>
+                <td><div class="operator" onclick="clicked('/')">/</div></td>
+            </tr>
+            <tr>
+                <td><div onclick="clicked('1')">1</div></td>
+                <td><div onclick="clicked('2')">2</div></td>
+                <td><div onclick="clicked('3')">3</div></td>
+                <td><div class="operator" onclick="clicked('*')">*</div></td>
+            </tr>
+            <tr>
+                <td><div onclick="clicked('4')">4</div></td>
+                <td><div onclick="clicked('5')">5</div></td>
+                <td><div onclick="clicked('6')">6</div></td>
+                <td><div class="operator" onclick="clicked('-')">-</div></td>
+            </tr>
+            <tr>
+                <td><div onclick="clicked('7')">7</div></td>
+                <td><div onclick="clicked('8')">8</div></td>
+                <td><div onclick="clicked('9')">9</div></td>
+                <td><div class="operator" onclick="clicked('+')">+</div></td>
+            </tr>
+            <tr>
+                <td colspan="2" onclick="clicked('0')"><div>0</div></td>
+                <td><div onclick="clicked('.')">.</div></td>
+                <td><div class="equal" onclick="calculate()">=</div></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>

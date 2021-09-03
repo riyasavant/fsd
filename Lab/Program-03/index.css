@@ -1,0 +1,24 @@
+div {
+    padding: 25px;
+    background-color: #1e2236;
+    color: white;
+    font-size: 20px;
+}
+
+div:not(#res) {
+    cursor: pointer;
+}
+
+div.operator {
+    background-color: #534cb4;
+}
+
+div.equal {
+    background-color: #fec208;
+}
+
+div.result {
+    background-color: white;
+    color: black;
+    text-align: right;
+}
