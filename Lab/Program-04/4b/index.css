@@ -1,0 +1,18 @@
+button {
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
+
+.btn {
+    background-color: teal;
+}
+
+.btn-clr {
+    background-color: #f63737;
+}
+
+input {
+    padding: 5px;
+}
