@@ -1,0 +1,20 @@
+span {
+    font-size: 13px;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="button"] {
+    padding: 8px;
+    background-color: teal;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+span[id="Success-Message"] {
+    color: black;
+    font-size: 14px;
+}

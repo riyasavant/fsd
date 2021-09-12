@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 5 - ENG18CS0230</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>Riya Savant (ENG18CS0230)</h2>
+    <form>
+        <table>
+            <tr>
+                <td>First Name :</td>
+                <td><input type="text" id="First-Name" onkeyup="validate()"></td>
+                <td><span id="errFirst-Name"></span></td>
+            </tr>
+            <tr>
+                <td>Last Name :</td>
+                <td><input type="text" id="Last-Name" onkeyup="validate()"></td>
+                <td><span id="errLast-Name"></span></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" id="Email" onkeyup="validate()"></td>
+                <td><span id="errEmail"></span></td>
+            </tr>
+            <tr>
+                <td>User ID :</td>
+                <td><input type="text" id="UserID" onkeyup="validate()"></td>
+                <td><span id="errUserID"></span></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type="password" id="Password" onkeyup="validate()"></td>
+                <td><span id="errPassword"></span></td>
+            </tr>
+            <tr>
+                <td>Confirm Password :</td>
+                <td><input type="password" id="Confirm-Password" onkeyup="validate()"></td>
+                <td><span id="errConfirm-Password"></span></td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="Submit" onclick="validate();Submit();"> </td>
+                <td><span id="Success-Message"></span></td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <script src="index.js"></script>
+</body>
+</html>
