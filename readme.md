@@ -10,5 +10,5 @@
 <div><a href="https://github.com/riyasavant/fsd/tree/master/Lab/Program-06">06: Calendar</a></div>
 
 <h4>Assignments</h4>
-<div><a href="https://github.com/riyasavant/fsd/tree/master/Module-01">Module 1</a></div>
-<div><a href="https://github.com/riyasavant/fsd/tree/master/Module-02">Module 2</a></div>
+<div><a href="https://github.com/riyasavant/fsd/tree/master/Assignments/Module-01">Module 1</a></div>
+<div><a href="https://github.com/riyasavant/fsd/tree/master/Assignments/Module-02">Module 2</a></div>
