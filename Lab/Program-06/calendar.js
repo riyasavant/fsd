@@ -1,8 +1,7 @@
 function dayTitle(dayName) {
-    document.write("<td align=center width=35 bgcolor=lightblue><b>" + dayName + "</b></td>");
+    document.write("<td align=center width-35 bgcolor=lightblue><b>" + dayName + "</b></td>");
 }
-
-function fillTable(month, monthLength) {
+function fillTable(month, monthLen) {
     let day = 1;
     document.write("<table border=1 cellspacing=3 cellpadding=3%>");
     document.write("<tr><td colspan=7 align=center bgcolor=red><b>" + month + " " + year + "</b></td></tr>");
@@ -13,40 +12,37 @@ function fillTable(month, monthLength) {
     dayTitle("Thu");
     dayTitle("Fri");
     dayTitle("Sat");
-
     document.write("</tr><tr>");
-    for(let i = 1; i < startDay; i++) {
+    for (var i = 1; i < start_day; i++) {
         document.write("<td>");
     }
-
-    for(let i = startDay; i <= 7; i++) {
+    for (var i = start_day; i <= 7; i++) {
         document.write("<td align=center bgcolor=silver>" + day + "</td>");
         day++;
     }
-
     document.write("<tr>");
-    while(day <= monthLength) {
-        for(let i = 1; i <= 7 && day <= monthLength; i++) {
+    while (day <= monthLen) {
+        for (var i = 1; i <= 7 && day <= monthLen; i++) {
             document.write("<td align=center bgcolor=silver>" + day + "</td>");
             day++;
         }
         document.write("<tr>");
-        startDay = i;
+        start_day = i;
     }
     document.write("</tr></table>");
 }
 
-// User Input
-let year = prompt("Enter 4 digit year: ", 2021);
+let year = prompt("enter 4 digit year ", 2021);
 let today = new Date("January 1, " + year);
-let startDay = today.getDay() + 1;
+let start_day = today.getDay() + 1;
 
-// Filling tables
 fillTable("January", 31);
-if(year % 4 == 0)
+
+if (year % 4 == 0)
     fillTable("February", 29);
 else
     fillTable("February", 28);
+
 fillTable("March", 31);
 fillTable("April", 30);
 fillTable("May", 31);
