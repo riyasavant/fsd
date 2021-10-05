@@ -8,6 +8,7 @@
 <div><a href="https://github.com/riyasavant/fsd/tree/master/Lab/Program-04/4b">04b: Leftmost Vowel / Reversing Input Number</a></div>
 <div><a href="https://github.com/riyasavant/fsd/tree/master/Lab/Program-05">05: Evaluation using Regex</a></div>
 <div><a href="https://github.com/riyasavant/fsd/tree/master/Lab/Program-06">06: Calendar</a></div>
+<div><a href="https://github.com/riyasavant/fsd/tree/master/Lab/Program-07">07: Node Server</a></div>
 
 <h4>Assignments</h4>
 <div><a href="https://github.com/riyasavant/fsd/tree/master/Module-01">Module 1</a></div>

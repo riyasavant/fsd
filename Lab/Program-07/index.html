@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 7</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        hr {
+            border-top: none;
+        }
+
+        .form {
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding-top: 0;
+        }
+
+        .header {
+            color: #a09f9f;
+        }
+
+        .name {
+            color: #a09f9f;
+            opacity: 80%;
+            margin-top: 12px;
+            font-size: 13px;
+        }
+
+        input[type="text"] {
+            border: 1px solid #a09f9f;
+            padding: 5px;
+            box-sizing: border-box;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #67dfd4;
+            color: white;
+            font-weight: bold;
+            border: none;
+            width: 100%;
+            margin-top: 20px;
+            padding: 8px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <p class="header">PERSONAL INFO</p>
+        <hr>
+        <form action="index.js" method="GET">
+            <p class="name">First Name</p>
+            <input type="text" name="firstname"> <br>
+            <p class="name">Last Name</p>
+            <input type="text" name="lastname"><br>
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+</body>
+</html>
