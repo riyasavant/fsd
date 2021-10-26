@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie App - Search</title>
+</head>
+<body style="overflow: hidden; margin: 0;">
+    <div 
+        style="
+            height: 100vh; 
+            width: 100vw; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            flex-direction: column;
+            background: #D3E4CD;
+            padding: 50px;
+        "
+    >
+        <h1>Movies</h1>
+        <form action="/result" method="POST">
+            <input type="text" name="movie" placeholder="Movie name" style="padding: 10px; border: none;">
+            <br>
+            <button style="background: teal; padding: 10px; color: white; border: none; margin-top: 10px; width: 190px; cursor: pointer;">Search</button>
+        </form>
+    </div>
+</body>
+</html>
